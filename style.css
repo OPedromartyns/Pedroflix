@@ -15,7 +15,16 @@
     box-sizing: border-box;
     line-height: 1.4;
   }
+
+.box1{ 
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(5, minmax(100px, 1fr));
+
+}
   
+
+
   img {
     max-width: 100%;
   }
@@ -105,7 +114,7 @@
   .box {
     display: grid;
     grid-gap: 20px;
-    grid-template-columns: repeat(6, minmax(100px, 1fr));
+    grid-template-columns: repeat(5, minmax(100px, 1fr));
   }
   
   .box a {
