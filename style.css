@@ -23,6 +23,8 @@
   
   h1 {
     padding-top: 60px;  
+    font-size: 35px;
+    color: #E50914;
   }
   
   .wrapper {
@@ -43,9 +45,10 @@
     background-color: var(--primary);
     width: 100%;
     margin-bottom: 0px;  
+    
   }
   
-  .netflixLogo {
+  .flixLogo {
     grid-area: nt;
     object-fit: cover;
     width: 100px;
@@ -55,8 +58,8 @@
     padding-top: 0px;  
   }
   
-  .netflixLogo img {  
-    height: 35px;     
+  .flixLogo img {  
+    height: 50px;     
   }
   
   #logo {
@@ -69,12 +72,15 @@
   .main-nav {
     grid-area: mn;
     padding: 0 30px 0 20px;
+    font-size: 20px;
+    
   }
   
   .main-nav a {
     color: var(--light);
     text-decoration: none;
     margin: 5px;  
+  
   }
   
   .main-nav a:hover {
@@ -174,6 +180,7 @@
       grid-template-areas: 
       "nt nt nt  .  .  . sb . . . "
       "mn mn mn mn mn mn  mn mn mn mn";
+      
     }
   
     .box {
@@ -193,6 +200,7 @@
       grid-template-areas: 
       "nt nt nt  .  .  . sb . . . "
       "mn mn mn mn mn mn  mn mn mn mn";
+      
     }
   
     .box {
@@ -229,7 +237,7 @@
       text-align: center;
     }
   
-    .netflixLogo {
+    .flixLogo {
       max-width: 100%;
       margin: auto;
       padding-right: 20px;

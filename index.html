@@ -3,7 +3,7 @@
 <html lang="Pt-br">
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Netflix</title>
+  <title>Pedroflix</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js" integrity="sha384-3LK/3kTpDE/Pkp8gTNp2gR/2gOiwQ6QaO7Td0zV76UFJVhqLl4Vl3KL1We6q6wR9" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="style.css">
@@ -15,15 +15,21 @@
 
     <!-- HEADER -->
     <header>
-      <div class="netflixLogo">
+      <div class="flixLogo">
         <a id="logo" href="#home"><img src="img/logo.png" alt="Logo Image"></a>
       </div>      
       <nav class="main-nav">                
         <a href="#home">Inicio</a>
         <a href="#tvShows">Progamas de TV</a>
         <a href="#movies">Filmes</a>
-        <a href="#originals">Originais</a>
-        <a href="#">Recentimente adicionado</a>       
+        <a href="#originals">Originais</a
+>
+       <select onchange="location = this.value;">
+        <option value="" disabled selected>Selecione uma seção</option>
+        <option value="#secao1">Seção 1</option>
+        <option value="#secao2">Seção 2</option>
+        <option value="#originals">Seção 3</option>
+      </select>   
       </nav>
       <nav class="sub-nav">
         <a href="#"><i class="fas fa-search sub-nav-logo"></i></a>
@@ -36,7 +42,7 @@
 
     <section class="main-container" >
       <div class="location" id="home">
-          <h1 id="home">Popular na Netflix</h1>
+          <h1 id="home">The twelve best</h1>
           <div class="box">
             <a href=""><img src="img/m1.jpg" alt=""></a>
             <a href=""><img src="img/p2.png" alt=""></a>
@@ -54,14 +60,26 @@
       </div>
       
 
-      <h1 id="myList">Tendencias</h1>
+      <h1 id="myList">Seriados favoritos</h1>
       <div class="box">
         <a href=""><img src="img/p3.jpg" alt=""></a>
         <a href=""><img src="img/p7.png" alt=""></a>
         <a href=""><img src="img/p9.png" alt=""></a>
         <a href=""><img src="img/p12.png" alt=""></a>
         <a href=""><img src="img/p11.png" alt=""></a>
-        <a href=""><img src="img/p10.png" alt=""></a>                  
+        <a href=""><img src="img/p10.png" alt=""></a>   
+        <a href=""><img src="img/p3.jpg" alt=""></a>
+        <a href=""><img src="img/p7.png" alt=""></a>
+        <a href=""><img src="img/p9.png" alt=""></a>
+        <a href=""><img src="img/p12.png" alt=""></a>
+        <a href=""><img src="img/p11.png" alt=""></a>
+        <a href=""><img src="img/p10.png" alt=""></a>  
+        <a href=""><img src="img/p3.jpg" alt=""></a>
+        <a href=""><img src="img/p7.png" alt=""></a>
+        <a href=""><img src="img/p9.png" alt=""></a>
+        <a href=""><img src="img/p12.png" alt=""></a>
+        <a href=""><img src="img/p11.png" alt=""></a>
+        <a href=""><img src="img/p10.png" alt=""></a>             
       </div>
       
       <h1 id="tvShows">Progamas de TV</h1>
@@ -81,7 +99,7 @@
       </div>
       
 
-      <h1 id="movies">Ação e aventura</h1>
+      <h1 id="movies">Ficção Científica</h1>
       <div class="box">
         <a href=""><img src="img/p12.png" alt=""></a>
         <a href=""><img src="img/p10.png" alt=""></a>
@@ -91,7 +109,90 @@
         <a href=""><img src="img/p6.png" alt=""></a>                
       </div>
 
-      <h1 id="originals">Originais da Netflix</h1>
+      <h1 id="movies">Ação</h1>
+      <div class="box">
+        <a href=""><img src="img/p12.png" alt=""></a>
+        <a href=""><img src="img/p10.png" alt=""></a>
+        <a href=""><img src="img/p11.png" alt=""></a>
+        <a href=""><img src="img/m1.jpg" alt=""></a>
+        <a href=""><img src="img/p4.png" alt=""></a>
+        <a href=""><img src="img/p6.png" alt=""></a>                
+      </div>
+
+
+      <h1 id="movies">Drama</h1>
+      <div class="box">
+        <a href=""><img src="img/p12.png" alt=""></a>
+        <a href=""><img src="img/p10.png" alt=""></a>
+        <a href=""><img src="img/p11.png" alt=""></a>
+        <a href=""><img src="img/m1.jpg" alt=""></a>
+        <a href=""><img src="img/p4.png" alt=""></a>
+        <a href=""><img src="img/p6.png" alt=""></a>                
+      </div>
+
+      <h1 id="movies">Fantasia</h1>
+      <div class="box">
+        <a href=""><img src="img/p12.png" alt=""></a>
+        <a href=""><img src="img/p10.png" alt=""></a>
+        <a href=""><img src="img/p11.png" alt=""></a>
+        <a href=""><img src="img/m1.jpg" alt=""></a>
+        <a href=""><img src="img/p4.png" alt=""></a>
+        <a href=""><img src="img/p6.png" alt=""></a>                
+      </div>
+
+
+      <h1 id="movies">Romance</h1>
+      <div class="box">
+        <a href=""><img src="img/p12.png" alt=""></a>
+        <a href=""><img src="img/p10.png" alt=""></a>
+        <a href=""><img src="img/p11.png" alt=""></a>
+        <a href=""><img src="img/m1.jpg" alt=""></a>
+        <a href=""><img src="img/p4.png" alt=""></a>
+        <a href=""><img src="img/p6.png" alt=""></a>                
+      </div>
+
+      <h1 id="movies">Aventura</h1>
+      <div class="box">
+        <a href=""><img src="img/p12.png" alt=""></a>
+        <a href=""><img src="img/p10.png" alt=""></a>
+        <a href=""><img src="img/p11.png" alt=""></a>
+        <a href=""><img src="img/m1.jpg" alt=""></a>
+        <a href=""><img src="img/p4.png" alt=""></a>
+        <a href=""><img src="img/p6.png" alt=""></a>                
+      </div>
+
+
+      <h1 id="originals">Terror</h1>
+      <div class="box">
+        <a href=""><img src="img/p8.png" alt=""></a>
+        <a href=""><img src="img/p2.png" alt=""></a>
+        <a href=""><img src="img/p4.png" alt=""></a>
+        <a href=""><img src="img/p6.png" alt=""></a>
+        <a href=""><img src="img/p5.png" alt=""></a>
+        <a href=""><img src="img/p9.png" alt=""></a>                
+      </div>
+
+      <h1 id="originals">Comédia</h1>
+      <div class="box">
+        <a href=""><img src="img/p8.png" alt=""></a>
+        <a href=""><img src="img/p2.png" alt=""></a>
+        <a href=""><img src="img/p4.png" alt=""></a>
+        <a href=""><img src="img/p6.png" alt=""></a>
+        <a href=""><img src="img/p5.png" alt=""></a>
+        <a href=""><img src="img/p9.png" alt=""></a>                
+      </div>
+
+      <h1 id="originals">Suspense</h1>
+      <div class="box">
+        <a href=""><img src="img/p8.png" alt=""></a>
+        <a href=""><img src="img/p2.png" alt=""></a>
+        <a href=""><img src="img/p4.png" alt=""></a>
+        <a href=""><img src="img/p6.png" alt=""></a>
+        <a href=""><img src="img/p5.png" alt=""></a>
+        <a href=""><img src="img/p9.png" alt=""></a>                
+      </div>
+
+      <h1 id="originals">Animação</h1>
       <div class="box">
         <a href=""><img src="img/p8.png" alt=""></a>
         <a href=""><img src="img/p2.png" alt=""></a>
