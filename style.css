@@ -26,7 +26,29 @@
     font-size: 35px;
     color: #E50914;
   }
-  
+  /* Estilos para o menu suspenso */
+.menususpenso {
+  padding: 8px;
+  font-size: 20px;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  background-color: #E50914;
+  color: #000000;
+  width: 200px; /* Largura desejada */
+}
+
+/* Estilos para as opções dentro do menu suspenso */
+option {
+  background-color: #E50914;
+  color: #ffffff;
+}
+
+/* Estilizando a opção desativada (a primeira) para dar uma aparência de placeholder */
+option:disabled {
+  color: #999;
+}
+
+
   .wrapper {
     margin: 0;
     padding: 0;
